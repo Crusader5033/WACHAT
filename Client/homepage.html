@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Welcome to the Chat</h2>
+    <div id="chatRoom">
+      <div id="chatRoomsList">
+      </div>
+      <div id="chatMessages"></div>
+      <form id="messageForm">
+        <input type="text" id="messageInput" placeholder="Type your message..." required>
+        <button type="submit">Send</button>
+      </form>
+      <form id="createRoomForm">
+        <input type="text" id="roomNameInput" placeholder="Enter room name..." required>
+        <label>
+          <input type="checkbox" id="privateRoomCheckbox">
+          Private Room
+        </label>
+        <button type="submit">Create/Join Room</button>
+      </form>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+  <script src="homepage.js"></script>
+</body>
+
+</html>
