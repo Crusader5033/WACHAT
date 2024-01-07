@@ -53,6 +53,6 @@ This repository contains a simple web chat application built using Node.js, Expr
 
 - Room creation and joining features are commented out and not functioning as expected.
 - Rooms in general are not working, tried but failed.
-- Only local , still banned from AWS, not paying money to Digital Ocean, Molic server keep screwing me uo
+- Only local , still banned from AWS, not paying money to Digital Ocean, Molic server keep screwing me over
 
 
